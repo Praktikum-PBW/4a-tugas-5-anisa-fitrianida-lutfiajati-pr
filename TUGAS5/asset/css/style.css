@@ -1,0 +1,103 @@
+/* HOME */
+/* Navbar */
+#main-nav a {
+    border-bottom: 5px solid #f8f9fa;
+    text-transform: uppercase;
+}
+
+#main-nav a:hover,
+#main-nav .active {
+    border-bottom-color: #043540;
+    transition: border-color 500ms;
+}
+
+#main-nav :active {
+    border-bottom-color: #043540;
+    transition: border-color 500ms;
+}
+
+/* Showcase */
+#showcase {
+    background: url('../IMG/cat7.jpg');
+    height: 400px;
+    padding-top: 150px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#showcase h1 {
+    padding-top: 55px;
+}
+
+/* CONTACT ME */
+#con-me {
+    background-color: #F4E2DE;
+}
+
+#con-me h2 {
+    padding-top: 55px;
+
+}
+
+.formLabel-required {
+    color: red;
+}
+
+#btn-sub {
+    width: 120px;
+
+}
+
+#btn-sub {
+    background-color: #043540;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    opacity: 1.6;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#btn-sub:hover {
+    background-color: rgb(226, 224, 115);
+    color: white;
+}
+
+#btn-sub :active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.footer {
+    background-color: rgb(238, 235, 220);
+    border-top: #666;
+
+}
+
+.sosmed i[class^="bi"] {
+    padding: 3px;
+    font-size: 20px;
+    color: #666;
+}
+
+/* Readmore */
+#desc {
+    margin-top: 30px;
+
+}
+
+p {
+    text-align: justify;
+}
+
+/* About */
+#imgabout {
+    background: url('../IMG/cat8.jpg');
+    height: 400px;
+    padding-top: 150px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
